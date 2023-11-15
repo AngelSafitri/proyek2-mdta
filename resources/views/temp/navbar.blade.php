@@ -1,4 +1,4 @@
-<div class="navbar navbar-expand-lg navbar-dark bg-primary navbar-static">
+<div class="navbar navbar-expand-lg navbar-dark bg-success navbar-static">
     <div class="d-flex flex-1 d-lg-none">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mobile">
             <i class="icon-paragraph-justify3"></i>
@@ -10,27 +10,19 @@
 
     <div class="navbar-brand text-center text-lg-left">
         <a href="index.html" class="d-inline-block">
-            <img src="../../../../global_assets/images/logo_light.png" class="d-none d-sm-block" alt="">
             <img src="../../../../global_assets/images/logo_icon_light.png" class="d-sm-none" alt="">
         </a>
     </div>
 
-    <div class="collapse navbar-collapse order-2 order-lg-1" id="navbar-mobile">       
-        <span class="badge badge-success my-3 my-lg-0 ml-lg-3">Online</span>        
+    <div class="collapse navbar-collapse order-2 order-lg-1" id="navbar-mobile">               
     </div>
 
     <ul class="navbar-nav flex-row order-1 order-lg-2 flex-1 flex-lg-0 justify-content-end align-items-center">
         <li class="nav-item nav-item-dropdown-lg dropdown">
             <a href="#" class="navbar-nav-link navbar-nav-link-toggler" data-toggle="dropdown">
-                <i class="icon-bell2"></i>
-                <span class="badge badge-warning badge-pill ml-auto ml-lg-0">2</span>
             </a>
             
             <div class="dropdown-menu dropdown-menu-right dropdown-content wmin-lg-350">
-                <div class="dropdown-content-header">
-                    <span class="font-weight-semibold">Messages</span>
-                    <a href="#" class="text-body"><i class="icon-compose"></i></a>
-                </div>
 
                 <div class="dropdown-content-body dropdown-scrollable">
                     <ul class="media-list">
@@ -39,81 +31,6 @@
                                 <img src="../../../../global_assets/images/demo/users/face10.jpg" width="36" height="36" class="rounded-circle" alt="">
                             </div>
 
-                            <div class="media-body">
-                                <div class="media-title">
-                                    <a href="#">
-                                        <span class="font-weight-semibold">James Alexander</span>
-                                        <span class="text-muted float-right font-size-sm">04:58</span>
-                                    </a>
-                                </div>
-
-                                <span class="text-muted">who knows, maybe that would be the best thing for me...</span>
-                            </div>
-                        </li>
-
-                        <li class="media">
-                            <div class="mr-3 position-relative">
-                                <img src="../../../../global_assets/images/demo/users/face3.jpg" width="36" height="36" class="rounded-circle" alt="">
-                            </div>
-
-                            <div class="media-body">
-                                <div class="media-title">
-                                    <a href="#">
-                                        <span class="font-weight-semibold">Margo Baker</span>
-                                        <span class="text-muted float-right font-size-sm">12:16</span>
-                                    </a>
-                                </div>
-
-                                <span class="text-muted">That was something he was unable to do because...</span>
-                            </div>
-                        </li>
-
-                        <li class="media">
-                            <div class="mr-3">
-                                <img src="../../../../global_assets/images/demo/users/face24.jpg" width="36" height="36" class="rounded-circle" alt="">
-                            </div>
-                            <div class="media-body">
-                                <div class="media-title">
-                                    <a href="#">
-                                        <span class="font-weight-semibold">Jeremy Victorino</span>
-                                        <span class="text-muted float-right font-size-sm">22:48</span>
-                                    </a>
-                                </div>
-
-                                <span class="text-muted">But that would be extremely strained and suspicious...</span>
-                            </div>
-                        </li>
-
-                        <li class="media">
-                            <div class="mr-3">
-                                <img src="../../../../global_assets/images/demo/users/face4.jpg" width="36" height="36" class="rounded-circle" alt="">
-                            </div>
-                            <div class="media-body">
-                                <div class="media-title">
-                                    <a href="#">
-                                        <span class="font-weight-semibold">Beatrix Diaz</span>
-                                        <span class="text-muted float-right font-size-sm">Tue</span>
-                                    </a>
-                                </div>
-
-                                <span class="text-muted">What a strenuous career it is that I've chosen...</span>
-                            </div>
-                        </li>
-
-                        <li class="media">
-                            <div class="mr-3">
-                                <img src="../../../../global_assets/images/demo/users/face25.jpg" width="36" height="36" class="rounded-circle" alt="">
-                            </div>
-                            <div class="media-body">
-                                <div class="media-title">
-                                    <a href="#">
-                                        <span class="font-weight-semibold">Richard Vango</span>
-                                        <span class="text-muted float-right font-size-sm">Mon</span>
-                                    </a>
-                                </div>
-                                
-                                <span class="text-muted">Other travelling salesmen live a life of luxury...</span>
-                            </div>
                         </li>
                     </ul>
                 </div>
@@ -131,11 +48,6 @@
             </a>
 
             <div class="dropdown-menu dropdown-menu-right">
-                <a href="#" class="dropdown-item"><i class="icon-user-plus"></i> My profile</a>
-                <a href="#" class="dropdown-item"><i class="icon-coins"></i> My balance</a>
-                <a href="#" class="dropdown-item"><i class="icon-comment-discussion"></i> Messages <span class="badge badge-primary badge-pill ml-auto">58</span></a>
-                <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item"><i class="icon-cog5"></i> Account settings</a>
                 <a href="{{ route('logout') }}" class="dropdown-item" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><i class="icon-switch2"></i> Logout</a>
                 <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                     @csrf

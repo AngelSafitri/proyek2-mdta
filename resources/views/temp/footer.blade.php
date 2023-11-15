@@ -8,7 +8,7 @@
 
     <div class="navbar-collapse collapse" id="navbar-footer">
         <span class="navbar-text">
-            &copy; 2022
+            &copy; 2023
         </span>
     </div>
 </div>
