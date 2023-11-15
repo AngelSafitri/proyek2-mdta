@@ -21,7 +21,7 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="form-group">
-                                <label class="col-form-label">Nama Kelompok</label>
+                                <label class="col-form-label">Nama Kelas</label>
                                 <input type="text" class="form-control" name="nama_kelompok" value="{{ isset($model) ? $model->nama_kelompok : ''}}" disabled>
                             </div>
 
