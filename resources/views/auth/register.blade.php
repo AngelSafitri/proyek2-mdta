@@ -23,7 +23,7 @@
                                             <div class="col-md-4" style="margin:0 auto;">    
                                                 <img src="{{asset('img/logo.png')}}" style="max-width:100%; max-height:100%">
                                             </div> 
-                                            <h5 class="mb-0">PAUD SOKA INDAH</h5>
+                                            <h5 class="mb-0">MDTA AL-JAUHAROTUNNAQIYAH</h5>
                                             <!-- <span class="d-block text-muted">Your credentials</span> -->
                                         </div>
 
@@ -107,7 +107,7 @@
                                     </div>
                                     
                                     <div class="card-footer bg-transparent text-right">
-                                        <button type="submit" class="btn btn-teal btn-labeled btn-labeled-right"><b><i class="icon-plus3"></i></b> Save</button>
+                                        <button type="submit" class="btn btn-teal btn-labeled btn-labeled-center">Save</button>
                                     </div>
                                 </div>
                             </div>

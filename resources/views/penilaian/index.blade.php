@@ -15,7 +15,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="form-group">
-                            <label class="">Kelas</label>
+                            <label class="">Kelompok</label>
                             <select class="form-control" name="nama_kelompok">
                                 @if (!isset($_GET['nama_kelompok']))
                                     <option value=""> -- Pilih -- </option>                        

@@ -11,14 +11,14 @@
             <h5 class="card-title">{{ $title }}</h5>
         </div>
         <div class="card-body">
-            <a href="{{ route('create-data-kelompok') }}" class="btn btn-primary" title="Tambah"><i class="icon-add"></i> Tambah Kelas</a>
+            <a href="{{ route('create-data-kelompok') }}" class="btn btn-primary" title="Tambah"><i class="icon-add"></i> Tambah Kelompok</a>
         </div>
         <table class="table datatable-selection-single">
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>Kelas</th>
-                    <th>Jumlah Anak</th>
+                    <th>Kelompok</th>
+                    <th>Rentang Usia</th>
                     <th>Wali Kelas</th>
                     <th class="text-center">Actions</th>
                 </tr>

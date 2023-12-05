@@ -14,7 +14,7 @@
                     <div class="media-body">
                         <div class="font-weight-semibold">{{ Auth::user()->name }}</div>
                         <div class="font-size-sm line-height-sm opacity-50">
-                            Admin
+                            Senior developer
                         </div>
                     </div>
 
@@ -51,9 +51,18 @@
                     <ul class="nav nav-group-sub" data-submenu-title="Layouts">
                         <li class="nav-item"><a href="{{ url('master/data-siswa') }}" class="nav-link ">Data Siswa</a></li>
                         <li class="nav-item" ><a href="{{ url('master/data-pengguna') }}" class="nav-link">Data Guru</a></li>
-                        <li class="nav-item"><a href="{{ url('master/data-kelompok') }}" class="nav-link">Data Kelas</a></li>                       
+                        <li class="nav-item"><a href="{{ url('master/data-kelompok') }}" class="nav-link">Data Kelompok</a></li>
+                        <li class="nav-item"><a href="{{ url('master/data-kd') }}" class="nav-link">Data KD Indikator</a></li>                        
                     </ul>
-                </li>                         
+                </li>                
+                <li class="nav-item nav-item-submenu">
+                    <a href="#" class="nav-link"><i class="icon-copy"></i> <span>Perkembangan</span></a>
+                    <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                        <li class="nav-item"><a href="{{ url('perkembangan/pendidikan-karakter') }}" class="nav-link">Pendidikan Karakter</a></li>
+                        <li class="nav-item"><a href="{{ url('perkembangan/evaluasi-tumbuh-kembang') }}" class="nav-link">Evaluasi Tumbuh Kembang</a></li>
+                        <li class="nav-item"><a href="{{ url('perkembangan/pertumbuhan-absensi') }}" class="nav-link">Catatan Pertumbuhan & Absensi</a></li>                                             
+                    </ul>
+                </li>                
                 <li class="nav-item"> <a href="{{ url('penilaian') }}" class="nav-link"><i class="icon-stats-dots"></i> <span>Penilaian</span></a> </li>
                 <li class="nav-item"> <a href="{{ url('laporan') }}" class="nav-link"><i class="icon-file-text2"></i> <span>Laporan</span></a> </li>
                 <li class="nav-item nav-item-submenu">
@@ -61,7 +70,7 @@
                     <ul class="nav nav-group-sub" data-submenu-title="Layouts">
                         <li class="nav-item"><a href="{{ url('pengaturan/tahun-ajaran') }}" class="nav-link">Tahun Ajaran</a></li>
                         <!-- <li class="nav-item"><a href="{{ url('perkembangan/evaluasi-tumbuh-kembang') }}" class="nav-link">Migrasi Kelas</a></li> -->
-                        <li class="nav-item"> <a href="{{ url('profile') }}" class="nav-link"></i> <span>Profil MDTA</span></a> </li>
+                        <li class="nav-item"> <a href="{{ url('profile') }}" class="nav-link"></i> <span>Profil PAUD</span></a> </li>
                     </ul>
                 </li>                
                 

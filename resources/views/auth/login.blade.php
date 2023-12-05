@@ -6,7 +6,7 @@
     @include('temp.header')
 </head>
 
-<body class="bg-success">
+<body class="bg-primary">
     <div class="page-content">
 		<div class="content-wrapper">
 			<div class="content-inner">
@@ -20,7 +20,7 @@
                                     <div class="col-md-5" style="margin:0 auto;">    
                                         <img src="{{asset('img/logo.png')}}" style="max-width:100%; max-height:100%">
                                     </div> 
-                                    <h5 class="mb-0">MDTA AL-JAUHAROTUNNAQIYAH</h5>
+                                    <h5 class="mb-0">PAUD SOKA INDAH</h5>
                                     <!-- <span class="d-block text-muted">Your credentials</span> -->
                                 </div>
 

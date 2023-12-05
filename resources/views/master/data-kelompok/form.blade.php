@@ -20,12 +20,12 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="form-group">
-                                <label class="col-form-label">Kelas</label>
+                                <label class="col-form-label">Nama Kelompok</label>
                                 <input type="text" class="form-control" name="nama_kelompok" value="{{ isset($model) ? $model->nama_kelompok : ''}}">
                             </div>
 
                             <div class="form-group">
-                                <label class="col-form-label">Jumlah Siswa</label>
+                                <label class="col-form-label">Kelompok Umur</label>
                                 <input type="text" class="form-control" name="kelompok_umur" value="{{ isset($model) ? $model->kelompok_umur : ''}}">
                             </div>
 

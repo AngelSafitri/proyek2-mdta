@@ -17,7 +17,7 @@
                 </div>
                 <div class="col-md-3">
                     <div class="form-group">
-                        <label class="">Kelas</label>
+                        <label class="">Kelompok</label>
                         <input type="text" class="form-control" readonly>
                     </div>
                 </div>

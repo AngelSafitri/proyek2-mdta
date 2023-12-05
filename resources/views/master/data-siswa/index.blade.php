@@ -12,7 +12,7 @@
         </div>
         <div class="card-body">
             <a href="{{ route('create-data-siswa') }}" class="btn btn-primary" title="Tambah"><i class="icon-add"></i> Tambah Siswa</a>
-            <a href="{{ route('siswaexport') }}" class="btn btn-success" title="Tambah"> <i class="icon-file-text2"></i>Export</a>
+            <a href="{{ route('siswaexport') }}" class="btn btn-success" title="Tambah"> <i class="icon-file-text2"></i>Download</a>
             <a href="#" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal"><i class="icon-copy"></i>Import</a>
         </div>
         <table class="table datatable-selection-single">

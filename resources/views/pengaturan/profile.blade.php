@@ -16,12 +16,12 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="form-group">
-                                <label class="col-form-label">Nama MDTA</label>
+                                <label class="col-form-label">Nama PAUD</label>
                                 <input type="text" class="form-control" name="nama" value="{{ isset($model) ? $model->nama : ''}}" required>
                             </div>
 
                             <div class="form-group">
-                                <label class="col-form-label">Program MDTA</label>
+                                <label class="col-form-label">Program PAUD</label>
                                 <input type="text" class="form-control" name="program" value="{{ isset($model) ? $model->program : ''}}" required>
                             </div>
 

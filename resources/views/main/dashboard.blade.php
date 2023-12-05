@@ -7,7 +7,7 @@
             <!-- Traffic sources -->
             <div class="card">
                 <div class="card-header">
-                    <h6 class="card-title text-center"><b>PROFILE MDTA</b></h6>                    
+                    <h6 class="card-title text-center"><b>PROFILE PAUD</b></h6>                    
                 </div>
 
                 <div class="card-body py-0">
@@ -20,11 +20,11 @@
                             </div>                           
                             <table class="table">
                                 <tr>
-                                    <td>Nama MDTA</td>
+                                    <td>Nama PAUD</td>
                                     <td>{{ $profile->nama }}</td>
                                 </tr>
                                 <tr>
-                                    <td>Program MDTA</td>
+                                    <td>Program PAUD</td>
                                     <td>{{ $profile->program }}</td>
                                 </tr>
                                 <tr>
